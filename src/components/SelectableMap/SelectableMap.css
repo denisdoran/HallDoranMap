@@ -1,0 +1,30 @@
+.SelectableMap {
+  position: absolute;
+  z-index: 0;
+  left: 0;
+  top: 0;
+  list-style: none;
+  margin: 0;
+  padding: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.SelectableMap img {
+  /* width:633px;
+  height:580px; */
+}
+
+.SelectableMap .baseImagePosition {
+  position: absolute;
+  z-index: 0;
+}
+
+.SelectableMap .selectable-map-item {
+  position: absolute;
+  z-index: -5;
+}
+
+.SelectableMap .selectable-map-item-hovered {
+  position: absolute;
+  z-index: 5;
+}
